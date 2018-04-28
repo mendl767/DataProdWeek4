@@ -23,6 +23,9 @@ This Shiny app builds a linear model with Sepal length as the dependent variable
 
 This initiates the server calculation wherein the linear model is formulated and fitted. This model's predicted Sepal Lengths are generated, based on the subset of input data, along with 95% confidence intervals. This is then used to generate a plot.
 
+The R files server.R and ui.R are in a github repo at https://github.com/mendl767/DataProdWeek4
+
+
 ## Model Plotting
 A plot is generated of the observed versus predicted sepal lengths. The 95% confidence interval for each predicted value is displayed as a gray band.
 
