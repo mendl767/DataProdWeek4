@@ -10,27 +10,11 @@ knitr::opts_chunk$set(echo = FALSE)
 library(ggplot2)
 ```
 
-## Assignment Objectives: Shiny Application
-
-* Write a shiny application with associated supporting documentation.
-* Deploy the application on Rstudio's shiny server
-* Share the application link by pasting it into the provided text box
-* Share your server.R and ui.R code on github
-
-The ui.R and server.R for my Shiny app is located at https://github.com/mendl767/DataProdWeek4
-
-## Assignment Objectives: Reproducible Pitch Presenetation
-
-* It must be done in Slidify or Rstudio Presenter
-* It must be 5 pages
-* It must be hosted on github or Rpubs
-* It must contained some embedded R code that gets run when slidifying the document
-
 ## Iris Dataset
-My Shiny app uses this popular dataset which consists of iris flower measurements from Ronald Fisher's 1936 paper "The use of multiple measurements in taxonomic problems." This dataset consists of length and width measurements of sepals and petals from 3 species of iris. 
+My Shiny app uses the popular iris dataset which consists of flower measurements from Ronald Fisher's 1936 paper "The use of multiple measurements in taxonomic problems." This dataset consists of length and width measurements of sepals and petals from 3 species of iris. 
 
 ```{r, echo=FALSE}
-head(iris)
+head(iris, 3)
 ```
 
 
